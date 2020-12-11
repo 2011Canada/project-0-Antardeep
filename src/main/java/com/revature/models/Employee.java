@@ -2,11 +2,19 @@ package com.revature.models;
 
 public class Employee extends User {
 	
-	private String employeeID;
+	private String employeeName;
 
-	public Employee(String userName, int password, String employeeID) {
-		super(userName, password);
-		this.employeeID = employeeID;
+	public Employee(String employeeID, int password, String name) {
+		super(employeeID, password);
+		this.employeeName = name;
+	}
+
+	public String getEmployeeName() {
+		return employeeName;
+	}
+
+	public void setEmployeeName(String employeeName) {
+		this.employeeName = employeeName;
 	}
 	
 }
