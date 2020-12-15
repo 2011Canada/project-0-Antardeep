@@ -1,15 +1,19 @@
 package com.revature.services;
 
-import java.util.List;
 
+
+import com.revature.exceptions.AccountNotFoundException;
+import com.revature.exceptions.NegativeBalanceException;
 import com.revature.exceptions.UserNotFoundException;
-import com.revature.models.User;
+
 
 
 public interface BankService {
 	
-	public List<User> seeAllUsers();
+//	public List<User> seeAllUsers();
 	
-	public void loginService(String ID, int password) throws UserNotFoundException;
+	public void loginService(String type, String ID, int password) throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException;
+	
+	public void registerUser(String type, String userID, int password, String fname, String lname, String phone, String email, String address);
 
 }
