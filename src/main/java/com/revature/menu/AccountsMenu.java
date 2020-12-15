@@ -92,6 +92,7 @@ public class AccountsMenu {
 			cm.customerHomeScreenDisplay((Customer)BankLauncher.getActiveUser());
 		default:
 			System.out.println("Please press valid key");
+			this.choice();
 			break;			
 		}
 	}
@@ -126,6 +127,7 @@ public class AccountsMenu {
 			em.employeeHomeScreenDisplay((Employee)BankLauncher.getActiveUser());
 		default:
 			System.out.println("Please press valid key");
+			this.choice1();
 			break;			
 		}
 	}

@@ -47,6 +47,7 @@ public class EmployeeMenu {
 			break;
 		default:
 			System.out.println("Please press valid key");
+			this.choice();
 			break;			
 		}
 	}

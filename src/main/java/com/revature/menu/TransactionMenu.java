@@ -85,6 +85,7 @@ public class TransactionMenu {
 			break;
 		default:
 			System.out.println("Please press valid key");
+			this.choice();
 			break;			
 		}
 	}
@@ -111,6 +112,7 @@ public class TransactionMenu {
 			break;
 		default:
 			System.out.println("Please press valid key");
+			this.choice1();
 			break;			
 		}
 	}

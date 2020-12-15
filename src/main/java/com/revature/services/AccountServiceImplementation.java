@@ -65,6 +65,7 @@ public class AccountServiceImplementation implements AccountService{
 			break;
 		default:
 			System.out.println("Please press valid key");
+			this.choice();
 			break;
 		}
 	}
@@ -92,6 +93,7 @@ public class AccountServiceImplementation implements AccountService{
 			am.viewNewAccountRequest();
 		default:
 			System.out.println("Please press valid key");
+			this.choice1(accountNo);
 			break;			
 		}
 	}

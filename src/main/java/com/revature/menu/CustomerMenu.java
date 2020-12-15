@@ -44,6 +44,7 @@ public class CustomerMenu {
 			break;
 		default:
 			System.out.println("Please press valid key");
+			this.choice();
 			break;			
 		}
 	}

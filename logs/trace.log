@@ -1,104 +1,42 @@
-2020-12-14 10:06:23 bank [INFO] Server Started
-2020-12-14 12:15:19 bank [INFO] Server Started
-2020-12-14 12:16:54 bank [INFO] Server Started
-2020-12-14 12:18:02 bank [INFO] Server Started
-2020-12-14 12:19:23 bank [INFO] Server Started
-2020-12-14 12:23:14 bank [INFO] Server Started
-2020-12-14 12:49:34 bank [INFO] Server Started
-2020-12-14 12:51:47 bank [INFO] Server Started
-2020-12-14 12:52:44 bank [INFO] Server Started
-2020-12-14 13:07:27 bank [INFO] Server Started
-2020-12-14 13:08:34 bank [INFO] Server Started
-2020-12-14 13:10:00 bank [INFO] Server Started
-2020-12-14 13:34:16 bank [INFO] Server Started
-2020-12-14 13:40:01 bank [INFO] Server Started
-2020-12-14 13:43:11 bank [INFO] Server Started
-2020-12-14 13:46:07 bank [INFO] Server Started
-2020-12-14 13:47:37 bank [INFO] Server Started
-2020-12-14 13:49:07 bank [INFO] Server Started
-2020-12-14 14:11:42 bank [INFO] Server Started
-2020-12-14 14:15:07 bank [INFO] Server Started
-2020-12-14 14:21:11 bank [INFO] Server Started
-2020-12-14 14:25:27 bank [INFO] Server Started
-2020-12-14 14:26:52 bank [INFO] Server Started
-2020-12-14 15:24:34 bank [INFO] Server Started
-2020-12-14 15:26:21 bank [INFO] Server Started
-2020-12-14 15:26:58 bank [INFO] Server Started
-2020-12-14 15:27:45 bank [INFO] Server Started
-2020-12-14 16:32:37 bank [INFO] Server Started
-2020-12-14 16:33:35 bank [INFO] New Customer Registered : cus 3
-2020-12-14 16:34:41 bank [INFO] Customer Login : cus 1
-2020-12-14 16:39:01 bank [INFO] Server Started
-2020-12-14 16:39:09 bank [INFO] Customer Login : cus 1
-2020-12-14 16:39:20 bank [INFO] New Account Created : 6 by 1
-2020-12-14 16:41:04 bank [INFO] New Account Created : 7 by 1
-2020-12-14 16:41:21 bank [INFO] Customer Accounts Fetched
-2020-12-14 16:43:23 bank [INFO] Deposit : 15.0 to 3
-2020-12-14 16:43:30 bank [INFO] Customer Accounts Fetched
-2020-12-14 16:46:17 bank [INFO] Withdraw : 5.0 from 3
-2020-12-14 16:46:19 bank [INFO] Customer Accounts Fetched
-2020-12-14 16:50:18 bank [INFO] Server Started
-2020-12-14 16:50:29 bank [INFO] Customer Login : cus 1
-2020-12-14 16:51:57 bank [INFO] Server Started
-2020-12-14 16:52:06 bank [INFO] Customer Login : cus 1
-2020-12-14 16:52:07 bank [INFO] Server Started
-2020-12-14 16:53:53 bank [INFO] Customer Login : cus 2
-2020-12-14 16:57:54 bank [INFO] Server Started
-2020-12-14 16:58:02 bank [INFO] Customer Login : cus 2
-2020-12-14 16:58:12 bank [INFO] New Account Created : Account No. 8 by Customer ID 2
-2020-12-14 16:58:26 bank [INFO] Customer Accounts Fetched
-2020-12-14 16:58:42 bank [INFO] Customer Logged out
-2020-12-14 16:58:42 bank [INFO] Server Started
-2020-12-14 16:59:02 bank [INFO] Employee Login : emp 1
-2020-12-14 16:59:12 bank [INFO] Account Fetched : Account Number - 3
-2020-12-14 17:00:15 bank [INFO] New Accounts Request List Fetched
-2020-12-14 17:00:25 bank [INFO] Account Approved :  Account Number - 8
-2020-12-14 17:00:25 bank [INFO] New Accounts Request List Fetched
-2020-12-14 17:01:10 bank [INFO] Transactions List Fetched
-2020-12-14 17:04:36 bank [INFO] Server Started
-2020-12-14 17:05:06 bank [INFO] Customer Login : cus 1
-2020-12-14 17:05:09 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:05:20 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:05:25 bank [INFO] Customer Logged out
-2020-12-14 17:05:25 bank [INFO] Server Started
-2020-12-14 17:06:12 bank [INFO] Customer Login : cus 2
-2020-12-14 17:06:15 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:11:19 bank [INFO] Server Started
-2020-12-14 17:11:28 bank [INFO] Customer Login : cus 2
-2020-12-14 17:11:30 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:13:25 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:14:01 bank [INFO] Account Fetched : Account Number - 3
-2020-12-14 17:18:09 bank [INFO] Server Started
-2020-12-14 17:18:31 bank [INFO] Customer Login : cus 1
-2020-12-14 17:18:33 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:18:57 bank [INFO] Account Fetched : Account Number - 8
-2020-12-14 17:20:49 bank [INFO] Server Started
-2020-12-14 17:20:55 bank [INFO] Customer Login : cus 1
-2020-12-14 17:20:57 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:21:04 bank [INFO] Account Fetched : Account Number - 8
-2020-12-14 17:21:43 bank [INFO] Server Started
-2020-12-14 17:21:51 bank [INFO] Customer Login : cus 1
-2020-12-14 17:21:52 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:21:57 bank [INFO] Account Fetched : Account Number - 8
-2020-12-14 17:22:33 bank [INFO] Server Started
-2020-12-14 17:22:41 bank [INFO] Customer Login : cus 1
-2020-12-14 17:22:42 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:22:48 bank [INFO] Account Fetched : Account Number - 8
-2020-12-14 17:22:48 bank [INFO] Withdraw : Amount 40.0 from Account No.3
-2020-12-14 17:22:48 bank [INFO] Money sent from Account No. 3 to Account No. 8
-2020-12-14 17:24:52 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:25:27 bank [INFO] Customer Logged out
-2020-12-14 17:25:27 bank [INFO] Server Started
-2020-12-14 17:25:34 bank [INFO] Customer Login : cus 2
-2020-12-14 17:25:36 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:26:04 bank [INFO] Deposit : Amount 40.0 to Account No. 8
-2020-12-14 17:26:04 bank [INFO] Money Recieved
-2020-12-14 17:26:08 bank [INFO] Customer Accounts Fetched
-2020-12-14 17:28:02 bank [INFO] Customer Logged out
-2020-12-14 17:28:02 bank [INFO] Server Started
-2020-12-14 17:30:58 bank [INFO] Server Started
-2020-12-14 17:32:10 bank [INFO] Server Started
-2020-12-14 18:16:41 bank [INFO] Server Started
-2020-12-14 18:17:57 bank [INFO] Server Started
-2020-12-14 18:28:47 bank [INFO] Server Started
-2020-12-14 18:29:37 bank [INFO] Account Fetched : Account Number - 3
+2020-12-15 10:19:02 bank [INFO] Server Started
+2020-12-15 10:19:06 bank [INFO] Server Started
+2020-12-15 10:19:17 bank [INFO] Customer Login : cus 1
+2020-12-15 10:19:35 bank [INFO] Customer Accounts Fetched
+2020-12-15 10:19:58 bank [INFO] Customer Logged out
+2020-12-15 10:19:58 bank [INFO] Server Started
+2020-12-15 10:20:14 bank [INFO] Employee Login : emp 1
+2020-12-15 10:20:21 bank [INFO] Account Fetched : Account Number - 3
+2020-12-15 10:20:31 bank [INFO] New Accounts Request List Fetched
+2020-12-15 10:20:39 bank [INFO] Transactions List Fetched
+2020-12-15 10:20:55 bank [INFO] Customer Logged out
+2020-12-15 10:20:55 bank [INFO] Server Started
+2020-12-15 10:21:33 bank [INFO] Server Started
+2020-12-15 10:23:06 bank [INFO] Server Started
+2020-12-15 10:23:15 bank [INFO] Customer Login : cus 1
+2020-12-15 10:23:17 bank [INFO] Customer Accounts Fetched
+2020-12-15 10:23:22 bank [INFO] Customer Logged out
+2020-12-15 10:23:22 bank [INFO] Server Started
+2020-12-15 10:23:33 bank [INFO] Employee Login : emp 1
+2020-12-15 10:23:36 bank [INFO] New Accounts Request List Fetched
+2020-12-15 10:25:26 bank [INFO] Server Started
+2020-12-15 10:25:57 bank [INFO] Server Started
+2020-12-15 10:26:18 bank [INFO] Employee Login : emp 1
+2020-12-15 10:27:11 bank [INFO] Server Started
+2020-12-15 10:27:22 bank [INFO] Employee Login : emp 1
+2020-12-15 10:31:08 bank [INFO] Server Started
+2020-12-15 10:31:42 bank [INFO] Employee Login : emp 1
+2020-12-15 10:35:47 bank [INFO] Server Started
+2020-12-15 10:39:03 bank [INFO] Server Started
+2020-12-15 10:39:52 bank [INFO] Server Started
+2020-12-15 10:42:12 bank [INFO] Server Started
+2020-12-15 10:42:20 bank [INFO] Employee Login : emp 1
+2020-12-15 10:57:06 bank [INFO] Server Started
+2020-12-15 11:04:12 bank [INFO] Server Started
+2020-12-15 11:04:26 bank [INFO] Employee Login : emp 1
+2020-12-15 11:04:51 bank [INFO] Account Fetched : Account Number - 3
+2020-12-15 11:05:07 bank [INFO] New Accounts Request List Fetched
+2020-12-15 11:05:14 bank [INFO] Transactions List Fetched
+2020-12-15 11:05:21 bank [INFO] Customer Logged out
+2020-12-15 11:05:21 bank [INFO] Server Started
+2020-12-15 11:05:32 bank [INFO] Customer Login : cus 1
+2020-12-15 11:05:47 bank [INFO] Server Started

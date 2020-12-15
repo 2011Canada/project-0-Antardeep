@@ -31,6 +31,7 @@ public class LoginMenu{
 				break;
 			default:
 				System.out.println("Please press valid key");
+				this.mainDisplay();
 				break;
 		}
 	}
