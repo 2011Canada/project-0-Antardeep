@@ -19,15 +19,15 @@ public class EmployeeMenu {
 	}
 
 	public void employeeHomeScreenDisplay(Employee e) throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException {
-		System.out.println("\n_____________Employee HOME PAGE______________");
-		System.out.println("Employee Personal Info : ");
+		System.out.println("\n______________________   Employee HOME PAGE      _________________________");
+		System.out.println("\nEmployee Personal Info : ");
 		System.out.println("\t\t\tName: "+ e.getEmpFirstName() + " " + e.getEmpLastName() + "\n\t\t\tPhone Number: " + e.getEmpPhone() + 
 				"\n\t\t\tEmail: " + e.getEmpEmail() + "\n\t\t\tAddress: " + e.getEmpAddress());
 		
 		System.out.print("\nPRESS 1 : View Specific Customer Bank Account\t 2: View New Account Requests\t 3: View Log of All Transactions\t 4: LOGOUT\n\n");
 		this.choice();
 		
-		System.out.println("_____________________________________________");
+		System.out.println("____________________________________________________________________________");
 	}
 	
 	private void choice() throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException {

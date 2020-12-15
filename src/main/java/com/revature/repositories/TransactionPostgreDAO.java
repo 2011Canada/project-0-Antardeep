@@ -120,7 +120,6 @@ public class TransactionPostgreDAO implements TransactionDAO{
 	public void postMoney(int accountNo, int accountNoTo, double amount) throws NegativeBalanceException, AccountNotFoundException {
 		Connection conn = cf.getConnection();
 		try {
-			conn.setAutoCommit(false);
 			
 			Map<String, String> accountInfo = new HashMap<String, String>();
 			accountInfo = aDAO.getAccountByNo(accountNoTo);
@@ -131,6 +130,8 @@ public class TransactionPostgreDAO implements TransactionDAO{
 			}
 			
 			this.withdraw(accountNo, amount);
+			
+			conn.setAutoCommit(false);
 
 			String postSQL = "insert into \"transfers\" (\"transfer_amount\", \"status\", \"from_account\", \"to_account\") values (?, ?, ? ,?);";
 			
@@ -143,6 +144,8 @@ public class TransactionPostgreDAO implements TransactionDAO{
 			insertPost.executeUpdate();	
 			System.out.println("~~~~~~Post Money tranfer Successful~~~~~~~~");
 			BankLauncher.bankLogger.info("Money sent from Account No. " + accountNo + " to Account No. " + accountNoTo);
+			
+		
 			
 		} catch (SQLException e1) {
 			e1.printStackTrace();
@@ -160,6 +163,7 @@ public class TransactionPostgreDAO implements TransactionDAO{
 			}
 			cf.releaseConnection(conn);
 		}
+	
 	}
 
 	@Override

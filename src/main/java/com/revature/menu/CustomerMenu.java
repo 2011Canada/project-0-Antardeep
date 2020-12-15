@@ -19,15 +19,15 @@ public class CustomerMenu {
 	}
 	
 	public void customerHomeScreenDisplay(Customer c) throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {
-		System.out.println("\n_____________CUSTOMER HOME PAGE______________");
-		System.out.println("Customer Personal Info : ");
+		System.out.println("\n_______________________   CUSTOMER HOME PAGE   _________________________");
+		System.out.println("\nCustomer Personal Info : ");
 		System.out.println("\t\t\tName: "+ c.getCusFirstName() + " " + c.getCusLastName() + "\n\t\t\tPhone Number: " + c.getCusPhone() + 
 				"\n\t\t\tEmail: " + c.getCusEmail() + "\n\t\t\tAddress: " + c.getCusAddress());
 		
-		System.out.print("\nPRESS 1 : Apply for new Account\t 2: View Accounts\t 3: LogOut\n\n");
+		System.out.print("\nPRESS 1 : APPLY FOR NEW ACCOUNT\t 2: VIEW ACCOUNTS\t 3: LOGOUT\n\n");
 		this.choice();
 		
-		System.out.println("_____________________________________________");
+		System.out.println("___________________________________________________________________________");
 	}
 	
 	private void choice() throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {

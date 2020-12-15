@@ -44,8 +44,8 @@ public class AccountServiceImplementation implements AccountService{
 	@Override
 	public void getAccountByAccountNo(int accountNo) throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException {
 		accountInfo = aDAO.getAccountByNo(accountNo);
-		System.out.println("_________  Account Info and Cutomer __________");
-		System.out.println("ACCOUNT TYPE: " + accountInfo.get("acType") + "\nACCOUNT NUMBER: " + accountInfo.get("acNumber") 
+		System.out.println("\nAccount Info and Cutomer\n------------------------");
+		System.out.println("\nACCOUNT TYPE: " + accountInfo.get("acType") + "\nACCOUNT NUMBER: " + accountInfo.get("acNumber") 
 						+ "\nACCOUNT BALANCE: " + accountInfo.get("acBalance") + "\nSTATUS: " + accountInfo.get("acStatus")
 						+ "\nCUSTOMER ID: " + accountInfo.get("customerID") + "\nCUSTOMER NAME: " + accountInfo.get("customerName"));
 		System.out.println("\nPRESS 1: View more account\t 2: Employee home page");

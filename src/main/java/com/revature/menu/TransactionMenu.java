@@ -64,6 +64,9 @@ public class TransactionMenu {
 		listOfTransfers = ts.getPostedMoneyService();
 		int currentPosition = 1;
 		System.out.println("--------------------------------------------------------------");
+		if(listOfTransfers.isEmpty()) {
+			System.out.println("~~~~ you don't have any money to recieve ~~~~");
+		}
 		for(Transfers trans : listOfTransfers) {
 				System.out.println("\n" +currentPosition + "\tAMOUNT: " + trans.getTransfeAmount() + "\tFROM ACCOUNT: " + trans.getFromAccount() 
 				+ "\tTO ACCOUNT: " + trans.getToAccount());
@@ -94,6 +97,9 @@ public class TransactionMenu {
 		listOfTransfers = ts.getAllTransactionService();
 		int currentPosition = 1;
 		System.out.println("-----------------------------------------Log of all Transactions------------------------------------------");
+		if(listOfTransfers.isEmpty()) {
+			System.out.println("~~~~ No Transaction Performed yet ~~~~");
+		}
 		for(Transfers trans : listOfTransfers) {
 				System.out.println("\n" +currentPosition + "\tTRANSFER AMOUNT: " + trans.getTransfeAmount() + "\t\tFROM ACCOUNT: " + trans.getFromAccount() 
 				+ "\t\tTO ACCOUNT: " + trans.getToAccount() + "\t\tSTATUS: " + trans.getStatus());

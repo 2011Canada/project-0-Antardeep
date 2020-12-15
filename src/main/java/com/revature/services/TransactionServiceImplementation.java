@@ -27,28 +27,28 @@ public class TransactionServiceImplementation implements TransactionService{
 	public void depositService(int accountNo, double amount) throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {
 		
 		tDAO.deposit(accountNo, amount);
-		System.out.println("PRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
+		System.out.println("\nPRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
 		this.choice();
 	}
 
 	@Override
 	public void withdrawService(int accountNo, double amount) throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {
 		tDAO.withdraw(accountNo, amount);
-		System.out.println("PRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
+		System.out.println("\nPRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
 		this.choice();
 	}
 
 	@Override
 	public void postMoneyService(int accountNo, int accountNoTo, double amount) throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {
 		tDAO.postMoney(accountNo, accountNoTo, amount);
-		System.out.println("PRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
+		System.out.println("\nPRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
 		this.choice();
 	}
 
 	@Override
 	public void recieveMoneyService() throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {
 		tDAO.recieveMoney();
-		System.out.println("PRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
+		System.out.println("\nPRESS 1 : CUSTOMER HOME SCREEN\t 2: PERFORM MORE TRANSACTION");
 		this.choice();
 	}
 	

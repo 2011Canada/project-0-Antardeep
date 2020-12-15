@@ -20,7 +20,7 @@ public class LoginMenu{
 	}
 	
 	public void mainDisplay() throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException {
-		System.out.println("PRESS  1 : LOGIN\t 2: REGISTERATION");
+		System.out.println("\nPRESS  1 : LOGIN\t 2: REGISTERATION");
 		String enteredValue = this.sc.nextLine();
 		switch(enteredValue) {
 			case "1":
@@ -48,28 +48,28 @@ public class LoginMenu{
 	
 	
 	public void loginDisplay() throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException {
-		System.out.println("\n************	USER LOGIN	*************");
+		System.out.println("\n******************************	USER LOGIN   ******************************");
 		
-		System.out.print("User ID:  ");
+		System.out.print("\nUser ID:  ");
 		String userID = this.sc.nextLine();
 		System.out.print("Password:  ");
 		int password = Integer.parseInt(this.sc.nextLine());
 		
-		System.out.println("*********************************************");
+		System.out.println("\n****************************************************************************");
 		
 		bs.loginService(type,userID,password);
 	}
 	
-	public void registerDisplay() {
-		System.out.println("\n********	USER REGISTERATION	********");
+	public void registerDisplay() throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException {
+		System.out.println("\n***********************   USER REGISTERATION   **************************");
 		
 		System.out.println("\nChoose your Login ID and password - (password must be an integer value)");
-		System.out.print("User ID:  ");
+		System.out.print("\nUser ID:  ");
 		String userID = this.sc.nextLine();
 		System.out.print("Password:  ");
 		int password = Integer.parseInt(this.sc.nextLine());
 		
-		System.out.println("_________  Additional Information  _____");
+		System.out.println("\nAdditional Information\n----------------------");
 		System.out.print("First Name:  ");
 		String fname = this.sc.nextLine();
 		System.out.print("Last Name:  ");
@@ -81,7 +81,7 @@ public class LoginMenu{
 		System.out.print("Address:  ");
 		String address = this.sc.nextLine();
 		
-		System.out.println("****************************************");
+		System.out.println("\n**************************************************************************");
 		
 		bs.registerUser(type, userID, password, fname, lname, phone, email, address);
 	}

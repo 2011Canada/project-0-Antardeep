@@ -30,8 +30,8 @@ public class AccountsMenu {
 	}
 	
 	public void newAccount() throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {
-		System.out.println("_________  Account Info  __________");
-		System.out.print("Account Type:  ");
+		System.out.println("\nAccount Info\n------------");
+		System.out.print("\nAccount Type:  ");
 		String acType = this.sc.nextLine();
 		
 		double acBalance = this.accountBalance();
@@ -52,7 +52,10 @@ public class AccountsMenu {
 	public void viewAccounts() throws NegativeBalanceException, AccountNotFoundException, UserNotFoundException {
 		listOfAccounts = ac.getAccountsByCustomerID();
 		int currentPosition = 1;
-		System.out.println("\n-----------------------------------YOUR ACCOUNTS-------------------------------------");
+		System.out.println("\n--------------------------------   YOUR ACCOUNTS   ----------------------------------");
+		if(listOfAccounts.isEmpty()) {
+			System.out.println("~~~~ you don't have any account ~~~~");
+		}
 		for(Account accounts : listOfAccounts) {
 				if(accounts.getStatus().equals("Rejected")) {
 					System.out.println("\n\n" +currentPosition + "\tTYPE: " + accounts.getAccountType() + "\tACCOUNT BALANCE: " + accounts.getAccountBalance() 
@@ -106,13 +109,13 @@ public class AccountsMenu {
 	public void viewNewAccountRequest() throws UserNotFoundException, NegativeBalanceException, AccountNotFoundException {
 		listOfAccounts = ac.getAccountsByPendingStatus();
 		int currentPosition = 1;
-		System.out.println("\n------------------------New Account Requests----------------------------");
+		System.out.println("\n---------------------------   New Account Requests   ------------------------------");
 		for(Account accounts : listOfAccounts) {
 			System.out.println("\n" +currentPosition + "\tTYPE: " + accounts.getAccountType() + "\tACCOUNT NUMBER: " + accounts.getAccountNumber() 
 						+ "\tSTATUS: " + accounts.getStatus());
 			 	currentPosition++;
 		}
-		System.out.println("--------------------------------------------------------------------------");
+		System.out.println("------------------------------------------------------------------------------------");
 		System.out.println("\n1 : SELECT AN ACCOUNT\t 2 : EMPLOYEE HOME PAGE ");
 		this.choice1();
 	}
